@@ -1,0 +1,65 @@
+body{
+  background: black;
+  color: green;
+  font-family: 'Share Tech Mono', monospace;
+}
+
+h1{
+  padding: 30 30 30 30px;
+  font-size: 40px;
+}
+
+div{
+  font-size: 20px;
+  line-height: 30px;
+}
+
+p{
+  margin: 20 120 20 20px;
+}
+
+.first-image{
+  width: 1000px;
+  margin: 20 20 20 20px;
+}
+
+.second-image{
+  width: 1000px;
+  margin: 0 50 0 20px;
+}
+
+.third-image{
+  width: 1000px;
+  margin: 20 20 20 20px;
+}
+
+.fourth-image{
+  width: 500px;
+  margin: 20 20 20 20px; 
+}
+a{
+  color: green;
+  font-size: 30px;
+  text-align: justify;
+
+}
+
+a:link{
+  color: green;
+  text-decoration: none;
+}
+
+a:visited{
+  color: purple;
+  text-decoration: none;
+}
+
+a:hover{
+  color: blue;
+  text-decoration: none;
+}
+
+a:active{
+  color: blue;
+  text-decoration: none;
+}

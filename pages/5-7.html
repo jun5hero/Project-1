@@ -1,0 +1,49 @@
+<!DOCUMENT html>
+<html>
+  <head>
+    <title>Java for New Bloggers</title>
+    <link href="../style/mainstylesheet.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1>5-7. What About JavaScript?</h1>
+
+    <div>
+    <p>
+      Remember Netscape, the first huge commercial Web browser? In 1995, as Java was blooming, Netscape was resolving a problem. It displayed Web pages that were not very lively. You could have a nice cartoon of a monkey on the Web page, but there was no way to make the monkey dance when you moved over it with your mouse. Figuring out how to make that happen was the job of a language developer named Brendan Eich. He sat down and in a few weeks created a language called JavaScript.
+      <br/><br/>
+      JavaScript’s relationship with Java is tenuous; the strongest bond between the languages is the marketing linkage of their names. And the early history of JavaScript was uninspiring. So the monkey could now dance. You could do things to the cursor, make things blink when a mouse touched them.
+      <br/><br/>
+      But as browsers proliferated and the Web grew from a document-delivery platform into a software-delivery platform, JavaScript became, arguably, the most widely deployed language runtime in the world. If you wrote some JavaScript code, you could run it wherever the Web was—everywhere.
+      <br/><br/>
+      JavaScript puttered around for years in the wilderness, as Java did, too. But without the resolute support of a corporate entity like Sun.
+      <br/><br/>
+      Then, about a decade ago people began to talk about Ajax—the idea that you could build real software into a Web page, not just a document, but a program that could do real work.
+      <br/><br/>
+      Things could respond and change according to inputs. You could distribute your software to hundreds of millions of people this way, and JavaScript would work for them. It wasn’t as controlled as Java, it was much slower than natively compiled C, and it had a terrible lack of niceties. And yet: Gmail, Google Maps, Flickr, Twitter, and Facebook. Every single pixel on a Web page can be manipulated now; the type can be changed, the words can move around; buttons can be pressed.
+      <br/><br/>
+      As with any celebrity, there’s a whole industry dedicated to spackling up its deficiencies and making it look good. There are books about the “good parts” of JavaScript; there are libraries that make it easier and more consistent to program, too, such as jQuery, which can turn the many lines of code necessary to make a paragraph disappear into a single $("p.optional").hide();.
+      <br/><br/>
+      Back in the era of the iPod and candy-colored Macintoshes, Apple took the code of an open-source Web browser called Konqueror and modified it to create Safari, its own Web browser to compete with Microsoft’s Internet Explorer. Then in 2008 Google started to make its own modifications to the Web engine underneath Safari, called Webkit, and made its own version called Chrome with a ­spanking-fast JavaScript engine called V8. They made JavaScript fast. “Devs still approach performance of JS code as if they are riding a horse cart,” tweeted one developer, “but the horse had long been replaced with fusion reactor.” Google does better when JavaScript is fast.
+      <br/><br/>
+      In 2009 a developer named Ryan Dahl modified the V8 engine, which was free software, and made it run outside the browser. There had been freestanding versions of JavaScript before (including some that ran inside Java, natch), but none so fast. He called this further fork Node.js, and it just took off. One day, JavaScript ran inside Web pages. Then it broke out of its browser prison. Now it could operate anywhere. It could touch your hard drive, send e-mail, erase all your files. It was a real programming language now. And the client … had become the server.
+      <br/><br/>
+      Here’s some JavaScript, squaring some numbers for you:
+    </p>
+    <img src="../source/image10.png" alt="interactive coding" class="third-image">
+    <p>
+      In a great and sudden wave, thousands of developers began to use Node.js and create modular libraries. If you knew how JavaScript worked on a Web page, then you could make it work on a server. And a few interesting characteristics of the language made it good for writing software that handles lots of simultaneous users. JavaScript listened for lots of things at once in a Web browser: A mouse moves; a key is typed; some information comes in from the network. On a server it could listen to dozens or hundreds of people all at once and give them the information they requested.
+      <br/><br/>
+      Soon the community developed a huge library of packages—bits of software that do specific things, such as reading files, or chattering with databases, or talking to Amazon’s Web services tools. At this writing, npmjs.com has 150,000 packages, and more than a billion copies of various packages have been downloaded in the past month.
+      <br/><br/>
+      NPM stands for Node Package Manager. It’s software that helps you install packages and … well, it’s unwieldy, honestly, because many of those 150,000 packages are just not that great. It’s a lot of searching and testing and sighing. But when you have this much stuff to pick from, for free, you shouldn’t complain. JavaScript is a hodgepodge designed in a hurry, and it runs on, well, who knows, but let’s say a billion-plus devices, so you might as well get with the program. Your customers may not have iPhones, but they probably have some way of running JavaScript.
+      <br/><br/>
+      So you might use JavaScript to make a more interesting Web page. You might use it to make the client-side of a full-fledged application, like Google Docs, that runs in the browser. You might use it to make a Web server that talks to a Web browser. Or you might use it to make an API that serves up data to a “client,” and sure, that client could be a laptop Web browser. But it’s 2015, and that client is quite probably an app on a smartphone.
+    </p>
+  </div>
+        <br/><br/>
+  </body>
+  <a href="5-6.html" title="Go to Main" target="_self">Go to Previous Page</a>
+
+  <a href="5-8.html" title="Go to 5-2" target="_self">Go to Next Page</a>
+</html>
