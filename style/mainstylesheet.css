@@ -1,12 +1,15 @@
 body{
-  background: black;
-  color: green;
+  background: #050505;
+  color: #F5F5F5;
   font-family: 'Share Tech Mono', monospace;
+  max-width: 800px;
+  margin-left: 20px;
 }
 
 h1{
-  padding: 30 30 30 30px;
+  padding: 15 15 15 15px;
   font-size: 40px;
+  line-height: 40px;
 }
 
 div{
@@ -18,24 +21,42 @@ p{
   margin: 20 120 20 20px;
 }
 
+#block-container{
+  text-align: left;
+}
+
+#code{
+  display: inline-block;
+  color: brown;
+  font-size: 25px;
+}
+
+#title{
+  display: inline-block;
+}
+
+.button{
+  font-size: 30px;
+}
+
 .first-image{
-  width: 1000px;
+  width: 75%;
   margin: 20 20 20 20px;
 }
 
 .second-image{
-  width: 1000px;
+  width: 75%;
   margin: 0 50 0 20px;
 }
 
 .third-image{
-  width: 1000px;
+  width: 75%;
   margin: 20 20 20 20px;
 }
 
 .fourth-image{
   width: 500px;
-  margin: 20 20 20 20px; 
+  margin: 20 20 20 20px;
 }
 a{
   color: green;
@@ -46,20 +67,35 @@ a{
 
 a:link{
   color: green;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a:visited{
   color: purple;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a:hover{
   color: blue;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a:active{
   color: blue;
-  text-decoration: none;
+  text-decoration: underline;
+}
+
+
+@media screen and (max-width: 768px) {
+    #code {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-color: lavender;
+    color: black;
+    font-family: 'Source Serif Pro', serif;
+  }
 }
